@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.cdt.codan.core.checkers">
+      <checker
+            class="ch.felixmorgner.test.TestChecker"
+            id="ch.felixmorgner.test.TestChecker"
+            name="Const Declaration Checker">
+         <problem
+               category="org.eclipse.cdt.codan.core.categories.ProgrammingProblems"
+               defaultEnabled="true"
+               defaultSeverity="Error"
+               description="Find the usage of insecure functions"
+               id="ch.felixmorgner.test"
+               messagePattern="Declaration is not const"
+               name="Non-const declaration">
+         </problem>
+      </checker>
+   </extension>
+
+</plugin>

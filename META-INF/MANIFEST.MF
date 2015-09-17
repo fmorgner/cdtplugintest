@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: ch.felixmorgner.test;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ch.felixmorgner.test.Activator
+Bundle-Vendor: Felix Morgner
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.10.0",
+ org.eclipse.cdt.core.native;bundle-version="5.8.0",
+ org.eclipse.cdt.core;bundle-version="5.10.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.cdt.codan.core.cxx.model,
+ org.eclipse.cdt.codan.core.model
