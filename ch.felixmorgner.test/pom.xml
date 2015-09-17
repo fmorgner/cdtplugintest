@@ -10,5 +10,5 @@
     <artifactId>ch.felixmorgner.test</artifactId>
     <version>1.0.0.qualifier</version>
     <packaging>eclipse-plugin</packaging>
-    <name>ConditionR</name>
+    <name>Test</name>
 </project>
