@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='GitLab Community Edition' name='description'>
+<title>Felix Morgner / cdtplugintest | GitLab</title>
+<link href="/assets/favicon-5738a6efe01f3282080df5f467da72a9.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="/assets/application-ffeeed35892b38ff9bfa135564fb0830.css" media="all" rel="stylesheet" />
+<link href="/assets/print-47fe51cdf70398e5e54b544e0f5cc718.css" media="print" rel="stylesheet" />
+<script src="/assets/application-3302fd299e1a3e701974f594a4a76c56.js"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="1ZGu2NzL8cpN30+GYnnj8yW+Il6iUV2qNFHHqbgYOpc=" name="csrf-token" />
+<script type="text/javascript">
+//<![CDATA[
+window.gon={};gon.default_issues_tracker="gitlab";gon.api_version="v3";gon.relative_url_root="";gon.default_avatar_url="https://source.arknet.ch/assets/no_avatar-0b64d25ac5f63e6f0caee99e819105ba.png";gon.max_file_size=10;
+//]]>
+</script>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+<meta content='#474D57' name='theme-color'>
+<link href="/assets/touch-icon-iphone-4c0496ac9f88e7961644c66b289a6614.png" rel="apple-touch-icon" type="image/vnd.microsoft.icon" />
+<link href="/assets/touch-icon-ipad-d64abe7a8e8be6e02245d2ed79da6ff9.png" rel="apple-touch-icon" sizes="76x76" type="image/vnd.microsoft.icon" />
+<link href="/assets/touch-icon-iphone-retina-54af16810ab006406b4df81f8a92fe8d.png" rel="apple-touch-icon" sizes="120x120" type="image/vnd.microsoft.icon" />
+<link href="/assets/touch-icon-ipad-retina-72774a950890a9e3811ab91f186cc11f.png" rel="apple-touch-icon" sizes="152x152" type="image/vnd.microsoft.icon" />
+<meta content='https://source.arknet.ch/assets/msapplication-tile-fc54d4a5d37bcda7967a2b70dedf3327.png' name='msapplication-TileImage'>
+<meta content='#30353E' name='msapplication-TileColor'>
+
+
+
+
+</head>
+
+<body class='ui_green' data-page='projects:show'>
+
+<header class='header-expanded navbar navbar-fixed-top navbar-gitlab'>
+<div class='container'>
+<div class='header-logo'>
+<a class="home" href="/explore"><img alt="Logo" src="/assets/logo-ca207549507c811d027110077cf86e90.svg" />
+<div class='gitlab-text-container'>
+<h3>GitLab</h3>
+</div>
+</a></div>
+<div class='header-content'>
+<div class='pull-right'>
+<a class="btn btn-sign-in btn-success btn-sm" href="/users/sign_in?redirect_to_referer=yes">Sign in</a>
+</div>
+<h1 class='title'><span><a href="/u/fmorgner">Felix Morgner</a> / <a href="/fmorgner/cdtplugintest">cdtplugintest</a></span></h1>
+</div>
+</div>
+</header>
+
+
+<div class='page-sidebar-expanded page-with-sidebar'>
+
+<div class='sidebar-wrapper nicescroll'>
+<ul class='nav nav-sidebar'>
+<li class=""><a class="back-link" data-placement="right" href="/" title="Back to dashboard"><i class="fa fa-caret-square-o-left fa-fw"></i>
+<span>
+Back to Dashboard
+</span>
+</a></li><li class='separate-item'></li>
+<li class="home active"><a class="shortcuts-project" data-placement="right" href="/fmorgner/cdtplugintest" title="Project"><i class="fa fa-home fa-fw"></i>
+<span>
+Project
+</span>
+</a></li><li class=""><a class="shortcuts-project-activity" data-placement="right" href="/fmorgner/cdtplugintest/activity" title="Project Activity"><i class="fa fa-dashboard fa-fw"></i>
+<span>
+Activity
+</span>
+</a></li><li class=""><a class="shortcuts-tree" data-placement="right" href="/fmorgner/cdtplugintest/tree/master" title="Files"><i class="fa fa-files-o fa-fw"></i>
+<span>
+Files
+</span>
+</a></li><li class=""><a class="shortcuts-commits" data-placement="right" href="/fmorgner/cdtplugintest/commits/master" title="Commits"><i class="fa fa-history fa-fw"></i>
+<span>
+Commits
+</span>
+</a></li><li class=""><a class="shortcuts-network" data-placement="right" href="/fmorgner/cdtplugintest/network/master" title="Network"><i class="fa fa-code-fork fa-fw"></i>
+<span>
+Network
+</span>
+</a></li><li class=""><a class="shortcuts-graphs" data-placement="right" href="/fmorgner/cdtplugintest/graphs/master" title="Graphs"><i class="fa fa-area-chart fa-fw"></i>
+<span>
+Graphs
+</span>
+</a></li><li class=""><a data-placement="right" href="/fmorgner/cdtplugintest/milestones" title="Milestones"><i class="fa fa-clock-o fa-fw"></i>
+<span>
+Milestones
+</span>
+</a></li><li class=""><a class="shortcuts-issues" data-placement="right" href="/fmorgner/cdtplugintest/issues" title="Issues"><i class="fa fa-exclamation-circle fa-fw"></i>
+<span>
+Issues
+<span class='count issue_counter'>0</span>
+</span>
+</a></li><li class=""><a class="shortcuts-merge_requests" data-placement="right" href="/fmorgner/cdtplugintest/merge_requests" title="Merge Requests"><i class="fa fa-tasks fa-fw"></i>
+<span>
+Merge Requests
+<span class='count merge_counter'>0</span>
+</span>
+</a></li><li class=""><a data-placement="right" href="/fmorgner/cdtplugintest/labels" title="Labels"><i class="fa fa-tags fa-fw"></i>
+<span>
+Labels
+</span>
+</a></li><li class=""><a class="shortcuts-wiki" data-placement="right" href="/fmorgner/cdtplugintest/wikis/home" title="Wiki"><i class="fa fa-book fa-fw"></i>
+<span>
+Wiki
+</span>
+</a></li><li class=""><a class="shortcuts-snippets" data-placement="right" href="/fmorgner/cdtplugintest/snippets" title="Snippets"><i class="fa fa-file-text-o fa-fw"></i>
+<span>
+Snippets
+</span>
+</a></li></ul>
+
+<div class='collapse-nav'>
+<a class="toggle-nav-collapse" href="#" title="Open/Close"><i class="fa fa-angle-left"></i></a>
+
+</div>
+</div>
+<div class='content-wrapper'>
+<div class='container-fluid'>
+<div class='content'>
+<div class='flash-container'>
+</div>
+
+<div class='clearfix'>
+
+<div class='project-home-panel clearfix'>
+<div class='project-identicon-holder'>
+<div class="project-avatar avatar s90 identicon" style="background-color: #E8EAF6; color: #555">C</div>
+</div>
+<div class='project-home-desc lead'>
+</div>
+<div class='project-repo-buttons'>
+<a class="btn has_tooltip star-btn" href="/users/sign_in" title="You must sign in to star a project"><i class="fa fa-star"></i>
+Star
+<span class='count'>
+0
+</span>
+</a>
+
+<a class="btn" href="/fmorgner/cdtplugintest/repository/archive.zip" rel="nofollow"><i class='fa fa-download'></i>
+</a>
+</div>
+<div class='git-clone-holder input-group'>
+<div class='input-group-addon git-protocols'>
+<div class='input-group-btn'>
+<button class='btn btn-sm ' data-clone='git@source.arknet.ch:fmorgner/cdtplugintest.git' data-container='body' data-html='true' data-title='Add an SSH key to your profile&lt;br&gt; to pull or push via SSH' type='button'>
+SSH
+</button>
+</div>
+<div class='input-group-btn'>
+<button class='btn btn-sm active' data-clone='https://source.arknet.ch/fmorgner/cdtplugintest.git' data-container='body' data-html='true' data-title='Set a password on your account&lt;br&gt; to pull or push via HTTPS' type='button'>
+HTTPS
+</button>
+</div>
+</div>
+<input class="js-select-on-focus form-control input-sm" id="project_clone" name="project_clone" readonly="readonly" type="text" value="https://source.arknet.ch/fmorgner/cdtplugintest.git" />
+<div class='input-group-addon'>
+<div class='visibility-level-label has_tooltip' data-title='Public project'>
+<i class="fa fa-globe fa-fw"></i>
+public
+</div>
+</div>
+</div>
+
+</div>
+
+<div class='project-stats'>
+<ul class='nav nav-pills'>
+<li>
+<a href="/fmorgner/cdtplugintest/commits/master">1 commit
+</a></li>
+<li>
+<a href="/fmorgner/cdtplugintest/branches">1 branch
+</a></li>
+<li>
+<a href="/fmorgner/cdtplugintest/tags">0 tags
+</a></li>
+</ul>
+</div>
+<hr>
+<section>
+<h3 class='page-title'>
+This project does not have README yet
+</h3>
+
+</section>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+
