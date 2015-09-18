@@ -12,7 +12,7 @@ public class BasicTest extends CheckerTestCase {
 	
 	@Override
 	protected String getSourcePrefix() {		
-		return "test";
+		return "src";
 	}
 
 	//	dummy() {

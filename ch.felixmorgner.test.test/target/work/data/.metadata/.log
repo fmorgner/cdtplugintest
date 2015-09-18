@@ -1,21 +1,21 @@
-!SESSION 2015-09-18 10:08:53.816 -----------------------------------------------
+!SESSION 2015-09-18 13:34:38.701 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_60
 java.vendor=Oracle Corporation
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/sophia/Scrap/ch.felixmorgner.test/ch.felixmorgner.test.test/target/surefire.properties -testApplication org.eclipse.ui.ide.workbench -product org.eclipse.epp.package.cpp.product -nouithread
-Command-line arguments:  -data /home/sophia/Scrap/ch.felixmorgner.test/ch.felixmorgner.test.test/target/work/data -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/sophia/Scrap/ch.felixmorgner.test/ch.felixmorgner.test.test/target/surefire.properties -testApplication org.eclipse.ui.ide.workbench -product org.eclipse.epp.package.cpp.product -nouithread
+Framework arguments:  -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/sophia/git/cdtplugintest/ch.felixmorgner.test.test/target/surefire.properties -testApplication org.eclipse.ui.ide.workbench -product org.eclipse.epp.package.cpp.product -nouithread
+Command-line arguments:  -data /home/sophia/git/cdtplugintest/ch.felixmorgner.test.test/target/work/data -application org.eclipse.tycho.surefire.osgibooter.uitest -testproperties /home/sophia/git/cdtplugintest/ch.felixmorgner.test.test/target/surefire.properties -testApplication org.eclipse.ui.ide.workbench -product org.eclipse.epp.package.cpp.product -nouithread
 
-!ENTRY org.eclipse.equinox.app 0 0 2015-09-18 10:08:56.518
+!ENTRY org.eclipse.equinox.app 0 0 2015-09-18 13:34:40.923
 !MESSAGE Product org.eclipse.epp.package.cpp.product could not be found.
 
-!ENTRY org.eclipse.core.resources 2 10035 2015-09-18 10:09:01.274
+!ENTRY org.eclipse.core.resources 2 10035 2015-09-18 13:34:44.488
 !MESSAGE The workspace will exit with unsaved changes in this session.
 
-!ENTRY org.eclipse.core.resources 2 10035 2015-09-18 10:09:01.276
+!ENTRY org.eclipse.core.resources 2 10035 2015-09-18 13:34:44.489
 !MESSAGE The workspace will exit with unsaved changes in this session.
 
-!ENTRY org.eclipse.ui 4 0 2015-09-18 10:09:01.276
+!ENTRY org.eclipse.ui 4 0 2015-09-18 13:34:44.490
 !MESSAGE Error occurred during status handling
 !STACK 0
 java.lang.NullPointerException
