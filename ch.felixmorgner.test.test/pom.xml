@@ -8,6 +8,5 @@
 		<relativePath>../ch.felixmorgner.test.parent</relativePath>
 	</parent>
 	<artifactId>ch.felixmorgner.test.test</artifactId>
-	<version>1.0.0.qualifier</version>
 	<packaging>eclipse-test-plugin</packaging>
 </project>
