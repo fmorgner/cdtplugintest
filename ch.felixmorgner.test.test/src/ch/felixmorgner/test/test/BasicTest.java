@@ -22,5 +22,13 @@ public class BasicTest extends CheckerTestCase {
 		loadCodeAndRun(getAboveComment());
 		checkErrorLine(2);
 	}
+	
+	//  dummy() {
+	//    int const foo{};
+	//  }
+	public void testConst() {
+		loadCodeAndRun(getAboveComment());
+		checkNoErrors();
+	}
 
 }
