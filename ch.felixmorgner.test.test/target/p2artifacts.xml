@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='ch.felixmorgner.test.test' version='1.0.0.201509180808'>
+    <properties size='5'>
+      <property name='artifact.size' value='3685'/>
+      <property name='download.size' value='3685'/>
+      <property name='maven-groupId' value='ch.felixmorgner'/>
+      <property name='maven-artifactId' value='ch.felixmorgner.test.test'/>
+      <property name='maven-version' value='1.0.0.qualifier'/>
+    </properties>
+  </artifact>
+</artifacts>

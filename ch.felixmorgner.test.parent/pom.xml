@@ -13,11 +13,12 @@
 
 		<cdt-repo.url>http://download.eclipse.org/tools/cdt/releases/8.7/</cdt-repo.url>
 		<mars-repo.url>http://download.eclipse.org/releases/mars</mars-repo.url>
-		<swtbot.url>http://download.eclipse.org/technology/swtbot/releases/latest</swtbot.url>
+		<cdt-test-repo.url>https://www.cevelop.com/cdt-testing/development/</cdt-test-repo.url>
 	</properties>
 
 	<modules>
 		<module>../ch.felixmorgner.test</module>
+		<module>../ch.felixmorgner.test.test</module>
 	</modules>
 
 	<repositories>
@@ -29,6 +30,11 @@
 		<repository>
 			<id>cdt</id>
 			<url>${cdt-repo.url}</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>cdt-test</id>
+			<url>${cdt-test-repo.url}</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>

@@ -1,14 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>ch.felixmorgner</groupId>
-        <artifactId>ch.felixmorgner.test.parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../ch.felixmorgner.test.parent</relativePath>
-    </parent>
-    <artifactId>ch.felixmorgner.test</artifactId>
-    <version>1.0.0.qualifier</version>
-    <packaging>eclipse-plugin</packaging>
-    <name>Test</name>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>ch.felixmorgner</groupId>
+		<artifactId>ch.felixmorgner.test.parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../ch.felixmorgner.test.parent</relativePath>
+	</parent>
+	<artifactId>ch.felixmorgner.test</artifactId>
+	<version>1.0.0.qualifier</version>
+	<packaging>eclipse-plugin</packaging>
+
+
 </project>
