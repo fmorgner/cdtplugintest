@@ -19,6 +19,7 @@
 	<modules>
 		<module>../ch.felixmorgner.test</module>
 		<module>../ch.felixmorgner.test.test</module>
+		<module>../ch.felixmorgner.test.core</module>
 	</modules>
 
 	<repositories>

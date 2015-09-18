@@ -12,5 +12,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.cdt.core;bundle-version="5.10.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Import-Package: org.eclipse.cdt.codan.core.cxx.model,
+Import-Package: ch.felixmorgner.test.core,
+ org.eclipse.cdt.codan.core.cxx.model,
  org.eclipse.cdt.codan.core.model

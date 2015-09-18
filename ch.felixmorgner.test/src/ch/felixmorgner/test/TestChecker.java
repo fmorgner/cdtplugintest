@@ -7,24 +7,28 @@ import org.eclipse.cdt.core.dom.ast.IASTDeclaration;
 import org.eclipse.cdt.core.dom.ast.IASTFunctionDefinition;
 import org.eclipse.cdt.core.dom.ast.IASTSimpleDeclaration;
 
+import ch.felixmorgner.test.core.ConstCheck;
+
 public class TestChecker extends AbstractAstFunctionChecker implements IChecker {
 
 	class DeclarationVisitor extends ASTVisitor {
 		public DeclarationVisitor(IASTFunctionDefinition f) {
 			shouldVisitDeclarations = true;
 		}
-		
+
 		@Override
 		public int visit(IASTDeclaration declaration) {
-			if(declaration instanceof IASTSimpleDeclaration) {
-				if(!((IASTSimpleDeclaration) declaration).getDeclSpecifier().isConst()) {
-					reportProblem("ch.felixmorgner.test", declaration, "242");
+			if (declaration instanceof IASTSimpleDeclaration) {
+				if (!((IASTSimpleDeclaration) declaration).getDeclSpecifier().isConst()) {
+					if (ConstCheck.couldBeConst()) {
+						reportProblem("ch.felixmorgner.test", declaration, "242");
+					}
 				}
 			}
 			return PROCESS_CONTINUE;
 		}
 	}
-	
+
 	@Override
 	protected void processFunction(IASTFunctionDefinition func) {
 		DeclarationVisitor visitor = new DeclarationVisitor(func);

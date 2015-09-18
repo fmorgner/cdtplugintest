@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: ch.felixmorgner.test.core
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: ch.felixmorgner.test.core.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.cdt.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.cdt.core
+Export-Package: ch.felixmorgner.test.core
